@@ -1,5 +1,4 @@
-# my_first_web_scraping_project
-Amazon Price Tracker
+# Amazon Price Tracker
 
 This is a Python web scraping project that tracks the price of a product on Amazon Egypt. The script extracts the product's title and price, stores the data in a CSV file, and updates it periodically.
 
