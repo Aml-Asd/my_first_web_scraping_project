@@ -1,49 +1,38 @@
-# Amazon Price Tracker
+# My First Web Scraping Project  
 
-This is a Python web scraping project that tracks the price of a product on Amazon Egypt. The script extracts the product's title and price, stores the data in a CSV file, and updates it periodically.
+This is a simple **Python** web scraping project that tracks product prices on **Amazon Egypt**. The script extracts the product's title and price, then saves the data in a **CSV** file with periodic updates.  
 
-Features
+## ✨ Features  
 
-✅ Scrapes product title and price from Amazon Egypt.✅ Saves the extracted data into a CSV file.✅ Prevents duplicate entries.✅ Runs continuously to track price changes.
+✅ Extracts the product title and price from Amazon Egypt.  
+✅ Stores the extracted data in a CSV file.  
+✅ Prevents duplicate entries.  
+✅ Automatically updates prices periodically.  
 
-Prerequisites
+## 📌 Prerequisites  
 
-Ensure you have Python installed. Then, install the required dependencies:
+Make sure you have **Python** installed on your system. Then, install the required libraries using the following command:  
 
+```bash
 pip install requests beautifulsoup4 pandas
-
-How It Works
-
+⚙️ How It Works
 The script sends a request to the Amazon product page.
-
-It extracts the product title and price using BeautifulSoup.
-
-The data is saved in a CSV file (AmazonWebScraperDataset.csv).
-
+It uses BeautifulSoup to extract the title and price.
+The data is saved in a AmazonWebScraperDataset.csv file.
 The script runs in a loop to check the price every few seconds.
+▶️ Usage
+Run the script using the following command:
 
-Usage
-
-Run the script using:
-
-python amazon_price_tracker.py
-
-File Structure
-
-📂 Amazon-Price-Tracker
- ├── amazon_price_tracker.py   # Main script
- ├── AmazonWebScraperDataset.csv # Stores extracted data
- ├── README.md                # Project documentation
- ├── requirements.txt         # List of dependencies
-
-Future Improvements
-
-Add error handling for failed requests.
-
-Store data in a database instead of a CSV file.
-
-Send email notifications when prices drop.
-
-License
-
-This project is open-source. Feel free to modify and improve it! 🚀
+bash
+Copy
+Edit
+python my_first_web_scraping.py
+📁 File Structure
+plaintext
+Copy
+Edit
+📂 My-first-web-scraping  
+├── my_first_web_scraping.py     # Main script  
+├── AmazonWebScraperDataset.csv  # Stores extracted data  
+├── README.md                    # Project documentation  
+├── requirements.txt             # List of dependencies  
